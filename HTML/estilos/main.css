@@ -1,0 +1,403 @@
+html{
+    background-color: #EAE1D7;
+    font-family: 'Roboto Slab', serif;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #EAE1D7;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+div.collapse{
+    font-size: 1.5rem;
+    padding: 0px 5px;
+}
+
+.active {
+    padding: 0px 15px;
+}
+
+/*inicio*/
+
+.inicio-img{
+    width: 100%;
+}
+
+.adoptados-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.adoptados-conteiner{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+
+/*nosostros*/
+
+.somos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    background-color: #F5F69F;
+    padding: 20px 30px;
+}
+
+
+.somos-text{
+    padding: 1.5rem;
+    width: auto;
+}
+
+.somos-h2{
+    font-size: 2.5rem;
+    padding: 0px 5px;
+}
+
+.somos-p{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+.fines{
+    display: flex;
+    background-color: #A09FF6;
+    padding: 20px 30px;
+}
+
+
+.fines-text{
+    padding: 1.5rem;
+}
+
+.fines-h2{
+    font-size: 2.5rem;
+    padding: 0px 5px;
+}
+
+.fines-p{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.adopciones{
+    display: flex;
+    background-color: #F5F69F;
+    padding: 20px 30px;
+}
+
+
+.adopciones-text{
+    padding: 1.5rem;
+}
+
+.adopciones-h2{
+    font-size: 2.5rem;
+    padding: 0px 5px;
+}
+
+.adopciones-p{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.finanzas{
+    display: flex;
+    background-color: #A09FF6;
+    padding: 20px 30px;
+}
+
+.img-thumbnail{
+    width: 400px;
+    padding: 0;
+    border: 0;
+}
+
+.finanzas-h2{
+    font-size: 2.5rem;
+    padding: 0px 5px;
+}
+
+
+.finanzas-p{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+/*adopción*/
+
+.titulo-adop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F69F;
+}
+
+.perros-gatos{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+.btn{
+    background-color: #A09FF6;
+}
+
+.btn:hover{
+    background-color: #9291dd;
+}
+
+/*compras*/
+
+.titulo-compras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F69F;
+    padding: 10px;
+}
+
+.cosas{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+.offcanvas{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+/*donaciones*/
+
+.titulo-donaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F69F;
+}
+
+.datos{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+/*perros*/
+
+.perros-main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+/*gatos*/
+
+.gatos-main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+}
+
+.g1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 10px;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.logo-footer{
+    width: 70px;
+    height: 70px;
+}
+
+a{
+    font-size: 2.5rem;
+    padding: 3px 5px;
+}
+
+a:hover{
+    color: black;
+}
+
+.g2{
+    width: 100%;
+    background-color: #e5d3be;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 965px){
+    .adoptados-conteiner{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    .perros-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    .gatos-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .perros-gatos{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    .cosas{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .perros-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    .gatos-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .adoptados-conteiner{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    .g1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 20px 10px;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .g1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 20px 10px;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+}
